@@ -1,0 +1,92 @@
+.all{
+    background-color: rgb(237, 247, 253);
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+.all_header{
+    font-weight: 900;
+}
+
+.dp_header{
+    margin-top:0px;
+    font-size: 130px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 350px;
+    background: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgb(231, 222, 222);
+    transform: translateY(-150%);
+    animation: ani2 1s forwards;
+}
+
+.dp_description{
+    font-size: 3vw;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 10px;
+    font-stretch: ultra-expanded;
+    letter-spacing: 10px;
+    opacity: .6;
+    transform: translateY(800%);
+    animation: ani3 1s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes ani2 {
+  0% {transform: translateY(-150%);}
+  100% {transform: translateY(0);}
+}
+
+@keyframes ani3 {
+  0% {transform: translateY(800%);}
+  100% {transform: translateY(0);}
+}
+
+.image1{
+  margin-top: 100px;
+  margin-left: 150px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgb(231, 222, 222);
+}
+
+.name_mix{
+  font-size: 4vw;
+  font-family: sans-serif;
+  margin-top: -450px;
+  margin-left: 750px;
+}
+
+.image2{
+  margin-top: 500px;
+  margin-left: 590px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgb(231, 222, 222);
+}
+
+.name_distr{
+  font-size: 4vw;
+  font-family: sans-serif;
+  margin-top: -450px;
+  margin-left: 150px;
+}
+
+.image3{
+  margin-top: 500px;
+  margin-left: 150px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgb(231, 222, 222);
+}
+
+.name_beat{
+  font-size: 4vw;
+  font-family: sans-serif;
+  margin-top: -450px;
+  margin-left: 750px;
+}
