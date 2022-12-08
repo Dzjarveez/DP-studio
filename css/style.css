@@ -1,9 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
 }
 
 .navbar {
+    z-index: 10;
     width: 100%;
     height: 6vw;
     background: #FFFFFF;
@@ -12,6 +16,8 @@ body {
     top: 0;
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.95;
+    transition: all 0.1s ease-in-out;
 }
 
 .navbar ul {
@@ -57,7 +63,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 13vw;
+    gap: 5vw;
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
@@ -67,32 +73,38 @@ body {
     height: 30vw;
     border-radius: 30px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
-    text-align: center
 }
 
 .textmix {
     font-size: 2vw;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .alltextmix {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2vw;
+    text-align: center;
 }
 
 .mixlist {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2vw;
+    line-height: 3vw;
+}
+
+.text1 {
+    width: 40vw;
+    word-break: break-word;
 }
 
 .beatsbox {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 13vw;
+    gap: 5vw;
     margin-bottom: 10vw;
 }
 
@@ -107,25 +119,32 @@ body {
     font-size: 2vw;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .alltextbeats {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2vw;
+    text-align: center;
 }
 
 .beatslist {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2vw;
+    line-height: 3vw;
+}
+
+.text2 {
+    width: 40vw;
+    word-break: break-word;
 }
 
 .distrbox {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 13vw;
+    gap: 5vw;
     margin-bottom: 10vw;
 }
 
@@ -140,18 +159,25 @@ body {
     font-size: 2vw;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .alltextdistr {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2vw;
+    text-align: center;
 }
 
 .distrlist {
     font-size: 1.5vw;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2vw;
+    line-height: 3vw;
+}
+
+.text3 {
+    width: 40vw;
+    word-break: break-word;
 }
 
 .footer {
@@ -163,4 +189,16 @@ body {
     background-color: black;
     color: white;
     font-size: 2vw;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+img {
+    transition: all 0.1s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.5;
 }
