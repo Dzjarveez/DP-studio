@@ -17,7 +17,7 @@ body {
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.95;
-    transition: all 0.1s ease-in-out;
+    transition: 0.3s;
 }
 
 .navbar ul {
@@ -196,9 +196,9 @@ body {
 }
 
 img {
-    transition: all 0.1s ease-in-out;
+    transition: 0.3s;
 }
 
 img:hover {
-    opacity: 0.5;
+    transform: scale(1.1);
 }
