@@ -114,7 +114,6 @@ html {
     display: block;
     width: 40vw;
     word-break: break-word;
-    background-color: antiquewhite;
 }
 
 .textmix {
@@ -124,7 +123,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 1.5vw;
-    background-color: firebrick;
 }
 
 .alltextmix {
@@ -134,7 +132,6 @@ html {
     line-height: 2vw;
     text-align: center;
     padding-bottom: 1.5vw;
-    background-color: aquamarine;
 }
 
 .mixlist {
